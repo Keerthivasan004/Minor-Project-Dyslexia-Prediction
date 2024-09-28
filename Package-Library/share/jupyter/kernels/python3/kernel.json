@@ -1,0 +1,14 @@
+{
+ "argv": [
+  "c:/Users/HP/keerthi/Desktop/Software/Minor-Project-Dyslexia-Prediction/Package-Library\\python.exe",
+  "-m",
+  "ipykernel_launcher",
+  "-f",
+  "{connection_file}"
+ ],
+ "display_name": "Python 3 (ipykernel)",
+ "language": "python",
+ "metadata": {
+  "debugger": true
+ }
+}

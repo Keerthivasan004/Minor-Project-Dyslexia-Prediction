@@ -1,0 +1,12 @@
+prefix=c:/Users/HP/keerthi/Desktop/Software/Minor-Project-Dyslexia-Prediction/Package-Library/Library
+exec_prefix=c:/Users/HP/keerthi/Desktop/Software/Minor-Project-Dyslexia-Prediction/Package-Library/Library
+libdir=c:/Users/HP/keerthi/Desktop/Software/Minor-Project-Dyslexia-Prediction/Package-Library/Library/lib
+includedir=c:/Users/HP/keerthi/Desktop/Software/Minor-Project-Dyslexia-Prediction/Package-Library/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: -lstdc++ 
+Requires.private: 
+Cflags: -I${includedir} 
