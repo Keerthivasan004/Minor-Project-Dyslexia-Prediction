@@ -1,0 +1,14 @@
+.para1{
+    letter-spacing: 3;   
+    margin-left:20px; 
+}
+header{
+    background-color:rgb(11, 11, 69);
+    height:100px;
+    color:white;
+}
+header p{
+    text-size-adjust:50;
+    text-align:center;
+    padding:35px;
+}
