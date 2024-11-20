@@ -14,3 +14,19 @@ header p{
     padding-left:20px;
     font-size:170%;
 }
+#form1{
+    height:100px;
+    width:100px;
+    border-color:black;
+    border-width:10px;
+    background-color:rgb(160, 160, 160);
+    padding:130px;
+    margin-top:50px;
+    margin-left:200px;
+}
+label{
+    display:flex;
+    justify-content:space-between;
+    word-spacing: 20px;
+    margin-left:0px;
+}
