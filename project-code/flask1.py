@@ -7,3 +7,5 @@ def prediction_page_1():
 @app.route('/prediction_page_2')
 def prediction_page_2():
     return render_template('webpage3.html')
+if __name__==("__main__"):
+    app.run(debug=True)
