@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <link rel="stylesheet" href="{{url_for('static', filename='webpage4.css')}}">
+        <title>Details Page</title>
+    </head>
+    <header>
+        <p>Provide the Details</p>
+    </header>
+    <body>
+        <div id="form1">
+            <form action=" ">
+                <div id="g1">
+                <label for="gender">Select the Gender</label>
+                <select id="gender" name="gender">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>    
+                </div>
+                <div>
+                    <label><input type="radio" id="age">5-13</label>
+                    <label><input type="radio" id="age">14-19</label>
+                    <label><input type="radio" id="age">19+</label>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>

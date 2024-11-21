@@ -4,34 +4,39 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Age</title>
-        <style>            
+        <style>           
             body {
             margin: 0; /* Removes default margin from the body */
             padding: 0; /* Removes default padding */
         }
-        .full-heading {
-            background-color: #3a4b6b; /* Green background */
-            color: white;             /* White text for contrast */
-            padding: 20px;            /* Adds space inside the heading */
-            margin: 0;                /* Ensures no space around the heading */
-            text-align: center;       /* Centers the text */
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f9f9f9;
+        header{
+            background-color:rgb(126, 42, 48);
+            height:80px;
+            margin:0px;
+            padding:0px;
         }
-            h1 {
-                text-align: center;
-                color: #333;
-            }
-            .table-container {
-                width: 60%;
-                margin: 20px auto;
-                padding: 20px;
-                border: 2px solid #eadbdb;
-                border-radius: 8px;
-                background-color: #d1c9c9;
-                box-shadow: 0 4px 8px rgba(199, 193, 193, 0.1);
-            }
+        .full-heading {
+            font-weight:bold;
+            font-size:150%;
+            color:white;
+            margin:0px;
+            padding-top:22px;            /* Ensures no space around the heading */
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+
+        }
+        .table-container{
+            width: 60%;
+            margin: 20px auto;
+            padding: 20px;
+            border: 2px solid #eadbdb;
+            border-radius: 8px;
+            background-color: #d1c9c9;
+            box-shadow: 0 4px 8px rgba(199, 193, 193, 0.1);
+        }
             table {
                 width: 100%;
                 border-collapse: collapse;
@@ -52,30 +57,36 @@
             color: #080808; /* Orange text */
             font-size: 18px;
         }
-         /* Styling the button */
-         .my-button {
-            background-color: #3a4b6b; /* Green background */
-            color: white;             /* White text */
-            padding: 20px; 
-            margin:0px;      /* Padding for size */
-            border: none;             /* Remove border */
-            border-radius: 5px;       /* Rounded corners */
-            cursor: pointer;          /* Pointer cursor on hover */
-            font-size: 50px;          /* Text size */
-            text-align: center;       /* Center the text */
-            height: 50px;
+        footer{
+            background-color:rgb(126, 42, 48);
+            height:100px;
+        }
+        .my-button{
+            padding:20px;
+            align-items:center;
         }
         button{
+            background-color:rgb(42, 88, 42);
+            border-radius:5px;
             font-size:20px;
             padding:10px;
             width:120px;
+            cursor:pointer;
+            margin:10px;
+            margin-left:560px;
+            border:none;
 
-        }
-
-        
+        }   
+        button:hover{
+            background-color:black;
+            color:white;
+        }     
         </style>
+        <header>
+            <p class="full-heading">Description about the task with age-wise category</p>
+        </header>
+    </head>
         <body>
-            <h1 class="full-heading">Description about the task with age-wise category</h1>
             <table>
                 <th>Age group</th>
                 <th>Category</th>
@@ -130,5 +141,4 @@
         </div>
     </footer>
         </body>
-        </head>
 </html>
