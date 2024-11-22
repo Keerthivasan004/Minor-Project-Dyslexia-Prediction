@@ -61,7 +61,7 @@
             background-color:rgb(126, 42, 48);
             height:100px;
         }
-        .my-button{
+        form .my-button{
             padding:20px;
             align-items:center;
         }
@@ -136,9 +136,11 @@
         
         </center>
         <footer>
+            <form action="{{url_for('prediction_page_4')}}">
              <div class="my-button">
             <button onclick="alert('Button clicked!')">Click</button>
         </div>
+        </form>
     </footer>
         </body>
 </html>
