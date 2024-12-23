@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{{url_for('static', filename='webpage1.css')}}">
+        <title>Welcome</title>
+    </head>
+    <header>
+        <p>Dyslexia accuracy Predictor</p>
+    </header>
+    <body>
+        <h2>What is Dyslexia?</h2>
+        <div class="para1">Dyslexia is a common learning disorder that affects a persons ability to read, write,
+            and spell, despite having average or above-average intelligence. It primarily impacts 
+            language processing skills, making it difficult to decode words, recognize phonetic patterns, 
+            and connect written symbols with their sounds. Dyslexia varies in severity and can also affect memory, 
+            concentration, and organization. It's a neurological condition, often diagnosed in childhood, that requires 
+            targeted educational strategies and support to improve literacy skills. While dyslexia cannot be "cured,"
+            individuals with dyslexia can learn strategies to manage the challenges it presents.
+        </div>
+        <div id="sym1">What are the symptoms of Dyslexia?</div>
+        <ul>
+            <li><img src="{{url_for ('static', filename='images/img1.jpeg')}}" alt="Dyslexia image-1" id="img1"></li>
+            <li><img src="{{url_for ('static', filename='images/stress.png')}}" alt="stress image" id="img1"></li>
+            <li><img src="{{url_for ('static', filename='images/focus.jpg')}}" alt="focus image" id="img1"></li>
+            <li><img src="{{url_for ('static', filename='images/tired.jpg')}}" alt="tired image" id="img1"></li>
+        </ul>
+        <div class="know">Want to know how to predict Dyslexia?</div>
+        <div class="know1">Click the button below</div>
+    </body>
+    <footer id="foot">
+        <form action="{{url_for('prediction_page_2')}}" method="GET">
+            <button class="button1" type="submit">Click Here</button>
+        </form>
+    </footer>
+</html>
