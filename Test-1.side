@@ -1,0 +1,21 @@
+{
+  "id": "5881d8bd-5daf-4336-9a7d-5a041228d274",
+  "version": "2.0",
+  "name": "Test-1",
+  "url": "",
+  "tests": [{
+    "id": "4e54b032-b74c-4a9c-9651-2047cf20f4a4",
+    "name": "Untitled",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "cd7d900c-787a-4279-a6ec-7c129e1043b4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4e54b032-b74c-4a9c-9651-2047cf20f4a4"]
+  }],
+  "urls": [],
+  "plugins": []
+}
